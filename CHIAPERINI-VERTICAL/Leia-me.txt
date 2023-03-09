@@ -1,0 +1,85 @@
+﻿
+Leia-me.txt
+
+
+
+
+  █  Criado em: 09/08/2009
+  █  Última atualização: 16/01/2010
+  █  Autor: Gabriel Barros
+  █  www.gabrielbarros.com.br
+  █  contato@gabrielbarros.com.br
+
+
+
+
+  ==============================================================
+    <DIV> com rolagem automática: anuncie notícias e novidades
+  ==============================================================
+
+  >> Este script foi exaustivamente testado, mas pode ser
+  que ainda haja erros. Se encontrar algum bug, um algoritmo
+  mais eficiente ou se quiser fazer um elogio ou uma crítica,
+  por favor entre em contato através do site ou e-mail acima.
+
+  >> Sinta-se à vontade para editar este script como desejar,
+  só que se for publicar em algum site com conteúdo para
+  desenvolvedores, lembre-se de fornecer os devidos créditos.
+
+  >> Estude regularmente e fique por dentro do que há de
+  melhor no mundo da programação web. Em pouco tempo, você
+  conseguirá obter grandes resultados. Boa sorte.
+
+
+
+
+
+  =================================
+    DESCRIÇÃO/ INSTRUÇÕES DE USO:
+  =================================
+
+
+  Este script, apesar de não mostrar complexidade, sem dúvida alguma, é excelente. A prova disso é que está presente em vários sites atuais.
+  Ele mostra uma mensagem dentro de uma <DIV> rolando de baixo para cima.
+  Quando o usuário passa o mouse sobre a mensagem, esta para de se mover para que possa ser lida com mais comodidade.
+  Use a sua imaginação à vontade e divulgue as novidades do seu site, links em destaque, artigos recomendados, produtos, últimas notícias, últimas do fórum, artigos em destaque, parcerias, programas para download, comunidades no Orkut-Twitter-Facebook-YouTube-Via6, links para blogs de amigos, promoções, apostilas, vídeos, resultados de promoções, termos de privacidade, alertas de fraude, piadas, conteúdos humorísticos, guias de turismo,... Enfim, você decide:)
+  Altere as cores, as fontes, a velocidade da mensagem de acordo com sua preferência, mas tenha bom senso.
+  Siga estas recomendações passo-a-passo:
+
+
+
+   1) Preencha a DIV com o conteúdo que desejar, mas mentenha o conjunto de tags <br /> no topo e na base da DIV por questões de estética;
+
+   2) Apague o trecho:
+     if (i == tamanho) {
+       i = 0;
+     }
+
+   3) Salve e abra a página no navegador;
+   
+   4) Espere todo o conteúdo da DIV rolar até o FIM e PARAR;
+
+   5) Cole esta linha de código na barra de endereços e pressione ENTER: javascript:alert(document.getElementById('painel').scrollTop);
+
+   6) Leia o número que vai aparecer na tela;
+
+   7) Volte para a edição da página;
+
+   8) Substitua o valor da variável tamanho (que no início vale 826) pelo valor que acabou de ler;
+ 
+   9) Insira as seguintes linhas de código no mesmo local onde você as apagou:
+      if (i == tamanho) {
+       i = 0;
+     } 
+
+   10) Salve e veja o resultado: a DIV vai rolar e agora repetir indefinidamente no ponto certo
+
+   11) Repita os 10 passos toda a vez que for editar o conteúdo da DIV, a menos que não queira que volte a rolar.
+
+
+   (?) Você fez isso tudo para que o conteúdo rolasse e voltasse exatamente para o ponto inicial
+   (?) O valor inicial 826 da variável tamanho equivale ao conteúdo que eu inseri na DIV (não é tamanho em pixels)
+
+
+  ++ Qualquer dúvida entre em contato quando quiser
+  ++ Conhecimento deve ser passado adiante. Contribua também no CodigoFonte.net
